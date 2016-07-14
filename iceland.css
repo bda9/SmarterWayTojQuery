@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  background: #fff;
+  width: 100px;
+  height: 72px;
+}
+
+body {
+  background: #0048e0;
+  margin: 0;
+}
+
+*::before, *::after {
+  content: "";
+  position: fixed;
+}
+
+*::after { background: #d72828 }
+
+html::before { top: 28px; height: 16px }
+body::before { left: 28px; width: 16px }
+html::after { top: 32px; height: 8px }
+body::after { left: 32px; width: 8px }
